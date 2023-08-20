@@ -1,0 +1,38 @@
+.text_line{
+    border-bottom: 3px solid black ;
+}
+.text_line_sm{
+    border-bottom: 1px solid black ;
+}
+.border_card{
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+    /* top: calc((100vh - 50%) / 2); */
+    /* left: calc((100vw - 50%)/2); */
+    /* top: 30%; */
+    left: 50%;
+    transform: translate(-50%);
+    /* padding-top:  60px; */
+    cursor: default;
+}
+
+@media  print {
+    .used_print{
+        margin: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 767.98px) {
+    .border_card{
+      width: 80% !important;
+    }
+    .used_text{
+      font-size: 14px !important;
+    }
+    
+  }
+
+

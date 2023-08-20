@@ -1,0 +1,54 @@
+.chenbooksize {
+    width: 180px;
+    height: auto;
+    object-fit: cover;
+   
+}
+
+.chendate {
+    font-size: 12px;
+}
+.chenstar {
+    color: #F2DF7D;
+}
+.chenstar_no {
+    color: #c7c7c3;
+}
+.book_limit{
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 96px;
+}
+
+.bookborder {
+    border: 1px;
+    border-radius: 5px;
+    height: 350.925px;
+    user-select:none;
+}
+.line-hight{
+    line-height: 20px;
+}
+.card_gap{
+    gap: 10px;
+}
+
+.text-hidden{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 700px){
+    .card_gap{
+        flex-direction: column;
+        align-items: center;
+    }
+    .bookborder{
+        height: 560px;
+    }
+}

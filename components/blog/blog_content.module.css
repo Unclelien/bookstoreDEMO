@@ -1,0 +1,69 @@
+.blogimg {
+    width: 450px;
+    height: 250px;
+}
+.chenred {
+    color: red;
+}
+.chenbread-hole {
+    font-size: 12px;
+}
+.chendate {
+    font-size: 12px;
+}
+.blogtitle {
+    font-size: 18px;
+}
+.blogcontent {
+    font-size: 18px;
+}
+
+.chenfs {
+    font-size: 24px;
+}
+
+.chenover {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.headblogimg {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: 1px rgb(201, 201, 201) solid;     
+    background-color: #b4b3b3
+    
+    
+}
+.editbutton {
+    font-size: 18px;
+}
+
+@media (max-width:400px) {
+    .chensp {
+        display: flex;
+        justify-content: space-around;
+    }
+    .headblogimg {
+        width: 40px;
+        height: 40px;
+    }
+    .editbutton {
+        font-size: 14px;
+    }
+    .blogimg {
+        width: 250px;
+        height: 150px;
+    }
+    .blogtitle {
+        font-size: 18px;
+    }
+    .chenover {
+        font-size: 14px;
+    }
+    .chenfs {
+        font-size: 18px;
+    }
+}

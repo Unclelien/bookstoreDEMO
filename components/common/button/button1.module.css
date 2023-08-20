@@ -1,0 +1,13 @@
+.chenbutton1 {
+    border-radius: 5px;
+    background-color: #52796F;
+    box-shadow: 0px 1px 0px 1px #c2c2c2c2		;
+    color: white;
+    border: 0px;
+}
+
+@media (max-width:400px) {
+    .chenbutton1 {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,127 @@
+.listcontain{
+    width: 100%;
+    margin-bottom: 60px;
+    border-radius: 8px;
+    padding: 20px;
+}
+.listrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.listcol{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #ddd;
+    box-shadow: 4px 4px 8px var(--color2);
+    padding: 10px;
+    transition: all 0.5 ease-in-out;
+}
+.listcol:hover {
+    background-color: #f5f5f5;
+}
+.listdivct{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:60px
+}
+.listnum{
+    margin: 20px 0;
+    text-align: center;
+}
+.orderbtn{
+    background-color: var(--color2);
+    border-radius: 8px;  
+    padding: 25px 25px 20px 25px;
+    cursor: pointer;
+    color: white;
+}
+.listdiv1{
+    display: flex;
+    margin: 15px 0;
+}
+.listdiv{
+    display: flex;
+    margin: 10px 0;
+}
+
+.listtext{
+    color: var(--color2);
+    display: flex;
+    margin: 10px 0;
+}
+.detaillocation{
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    gap: 60px;
+}
+.listdivtext1{
+    animation: spot 2s ease-in 1s infinite normal none;
+}
+@keyframes spot{
+    0%{opacity:1;}
+    90%{opacity:0;}
+    100%{
+    color:#232323;}
+}
+
+
+@media (max-width:400px) {
+    .listcontain{
+    width: 100%;
+    margin-bottom: 60px;
+    border-radius: 8px;
+    padding: 10px;
+    }
+    .listcol{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid #ddd;
+        padding: 5px;
+        transition: none;
+    }
+    .listdivct{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:80px;
+    }
+    .orderbtn{
+        background-color: var(--color2);
+        border-radius: 8px;  
+        padding: 15px 15px 10px 15px;
+        margin: 20px 0;
+    }
+    .listdivct1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:flex-start;
+        gap: 4.5px;
+    }
+    .listdivct2{
+        width: 100%;
+        height: 100%;
+         display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:flex-start;
+        gap: 13px;
+    }
+    .listdivtext{
+        font-size: 16px;
+    }
+    .listdivtext1{
+        font-size: 16px;
+    }
+    .listdivtext2{
+        font-size: 16px;
+    }
+}

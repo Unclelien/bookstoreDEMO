@@ -1,0 +1,130 @@
+.CProductlist{
+    display: none;
+}
+.tablecontain{
+    width: 100%;
+}
+.tablehead{
+    border-bottom: 2px solid var(--color2);
+}
+.CountBlock{
+ display: flex;
+ justify-content: center;
+ gap: 8px;
+}
+.totalprice::before{
+    content: "$";
+}
+.oneprice::before{
+    content: "$";
+}
+.usedprice{
+   color:red
+}
+.Countvalue{
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid var(--color5);
+    width: 60px;
+}
+.Countvalue2{
+    text-align: center;
+    width: 60px;
+}
+.Countvalue1{
+    text-align: center;
+    width: 60px;
+    font-size: var(--txi24);
+}
+.ProdeuctBlock{
+    text-align: center;
+    font-size: var(--txi24);
+    padding: 25px;
+}
+.imagebook{
+    margin-right: 10px;
+}
+.Prodeuctpn{
+    width: 40%;
+    text-align:left;
+    font-size: var(--txi24);
+    padding: 25px;
+}
+.Prodeucttr{
+    vertical-align: middle;
+    transition: all 0.9s ease-in-out;
+}
+.Prodeucttr:hover{
+    background-color: rgb(234, 233, 233);
+}
+
+.trashbtn{
+    border-style: none;
+    border-radius: 50%;
+}
+.textContainer{
+    overflow: hidden;
+    text-overflow: ellipsis ;
+    display: -webkit-box;
+    -webkit-line-clamp: 2 ;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    font-weight: 600;
+}
+@media (max-width:400px) {
+    .CProductlist{
+        display: block;
+        border-bottom: 1px solid black;
+    }
+    .CProductlist1{
+        display: flex;
+        justify-content: space-around;
+        
+        padding: 20px 0;
+        gap: 40px;
+    }
+    .CProductlist2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .CProductlist3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .tablecontain{
+        display: none;
+    }
+  
+    .Clisttext{
+        font-size: var(--txi16);
+    }
+    .CPtotaltext{
+        text-align: end;
+    }
+    .CountBlock{
+        gap:8px
+    }
+    .Countcut{
+        width: 45%;
+        border-radius: 50%;
+        border: 1px solid var(--color6);
+    }
+    .Countplus{
+        width: 45%;
+        border-radius: 50%;
+        border: 1px solid var(--color6);
+    }
+    .counttext::after{
+        content:"件"
+    }
+    
+    
+}

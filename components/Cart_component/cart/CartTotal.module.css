@@ -1,0 +1,112 @@
+.CartTotalContain{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+}
+.price::before{
+content: "$";
+}
+
+.CartTotalcol{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:75px;
+    gap: 30px;
+}
+.CartTotaldiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 20px 0;
+    gap:50px
+}
+.CartTotalname{
+    display: flex;
+    flex-direction: column;
+    gap:40px
+}
+.CartTotalprice{
+    display: flex;
+    flex-direction: column;
+    gap:40px
+}
+
+.CartTotalBtnNext{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    gap:30px
+}
+.CartTotalbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin: 40px 0;
+}
+.btnmenucontain{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px
+}
+.btnmenurow{
+    display:flex;
+    align-items:center;
+    gap:40px;
+}
+.btnmenu{
+  border: 2px solid #52796F;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  color: #52796F;
+  font-size: 20px;
+}
+.menuStyle {
+    width: 300px;
+    padding: 30px;
+    background: #fff;
+    border: 2px solid #52796F;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #52796F;
+    text-align:center;
+  }
+.btnmeundiv{
+    margin-bottom: 20px;
+}
+.options{
+    color: var(--color2);
+    cursor: pointer;
+    padding: 10px 0;
+}
+.options:hover{
+    color: white;
+    background: var(--color2);
+}
+.warningtext{
+    color: red;
+    padding-bottom: 30px;
+    animation: popupAnimation 0.5s;
+}
+
+
+@keyframes popupAnimation {
+    0% { transform:translateY(0px) }
+    25% { transform:translateY(-30px); }
+    50% { transform:translateY(0px); }
+    75% { transform:translateY(-15px); }
+    100% { transform:translateY(0px); }
+}
+
+@media (max-width:400px) {
+    .CartTotalTitle{
+        font-size: var(--txi28);
+    }
+    .CartTotalbtn{
+       gap:40px;
+    }
+}

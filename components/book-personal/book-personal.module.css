@@ -1,0 +1,24 @@
+.chendis {
+    display: none;
+}
+
+@media (max-width:400px) {
+    .chendis {
+        display: block;
+    }
+    .chenjc {
+        justify-content: center;
+    }
+    .chenjc2 {
+        display: none;
+    }
+    .chenp {
+        padding-right: 50px;
+    }
+    .blogcontent {
+        flex-direction: column;
+    }
+    .chenblognav {
+        justify-content: space-around;
+    }
+}

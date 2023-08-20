@@ -1,0 +1,49 @@
+.crumbs_box{
+    
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.crumbs_none{
+    font-size: 20px;
+    width: auto;
+    height: 30px;
+    font-weight: bold;
+    margin-right: 0px;
+}
+
+.crumbs_border{
+    font-size: 20px; 
+    margin-left:20px;
+    width: auto;
+    height: 30px;
+    border-left: 1px solid black;
+    padding-left: 15px;
+    font-weight: bold;
+}
+.selected{
+    color:#000000;
+}
+.unselected{
+    color:#D9D9D9;
+}
+.under_line{
+    text-decoration: none;
+}
+.notify{
+    font-size: 16px;
+    color: red;
+}
+@media screen and (max-width: 767.98px) {
+    .crumbs_border{
+        font-size: 16px;  
+    } 
+    .crumbs_none{
+        font-size: 16px;
+        
+    }
+}
+.mid{
+    display: flex;
+    justify-content: center;
+ }

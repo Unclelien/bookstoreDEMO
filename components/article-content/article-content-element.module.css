@@ -1,0 +1,46 @@
+.chenbreadhole {
+    font-size: 12px;
+}
+.chenfs {
+    font-size: 22px;
+}
+
+.chenp {
+    font-size: 18px;
+}
+
+.chenbr {
+    white-space: break-spaces;
+}
+
+.chensize {
+    font-size: 12px;
+}
+.chenpt {
+    padding-top: 20px;
+}
+
+@media (max-width:400px) {
+    .chenpt {
+        padding-top: 20px;
+    }
+    .blogimg {
+        width: 310px;
+        height: 200px;
+    }
+    .chenre {
+        display: none;
+    }
+    .chenfs {
+        font-size: 16px;
+    }
+    .chenp {
+        font-size: 14px;
+    }
+    .blogcontent {
+        flex-direction: column;
+    }
+    .chenre {
+        display: none;
+    }
+}

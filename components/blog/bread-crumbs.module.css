@@ -1,0 +1,23 @@
+.chenbreadhole {
+    font-size: 12px;
+}
+.chenbread{
+    font-size: 18px;
+}
+
+
+
+@media (max-width:400px) {
+    .bread {
+      display: none;
+    }
+    .chenbread{
+        font-size: 16px;
+    }
+    .chenjc {
+        justify-content: center;
+    }
+    .chenp {
+        padding-right: 50px;
+    }
+}

@@ -1,0 +1,30 @@
+.chenbooksize {
+    width: 150px;
+    height: 200px;
+}
+
+.chendate {
+    font-size: 12px;
+}
+.chenstar {
+    color: #F2DF7D;
+}
+.chends {
+    display: none;
+}
+
+@media screen and (max-width: 700px){
+
+    .chensd {
+        display: none;
+    }
+    .chends {
+        display: block;
+    }
+    .chenbooksize {
+        width: 100px;
+        height: 150px;
+    }
+    
+
+}
